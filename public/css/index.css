@@ -1,0 +1,44 @@
+.grad-red{
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(89deg, rgba(255, 17, 0, 1) 0%, rgba(255, 225, 208, 0.91) 98%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(89deg, rgba(255, 17, 0, 1) 0%, rgba(255, 225, 208, 0.91) 98%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(89deg, rgba(255, 17, 0, 1) 0%, rgba(255, 225, 208, 0.91) 98%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFE1D0', endColorstr='#FF1100', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(89deg, rgba(255, 17, 0, 1) 0%, rgba(255, 225, 208, 0.91) 98%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(89deg, rgba(255, 17, 0, 1) 0%, rgba(255, 225, 208, 0.91) 98%);
+}
+#searchResult{
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sub{
+    border-radius: 6px;
+    background-color: rgb(184, 207, 230);
+    margin: 15px;
+    padding: 15px;
+}
+
+.empty{
+    background-color: lightpink;
+    border-style: dashed;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

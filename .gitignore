@@ -1,0 +1,9 @@
+# dependencies
+node_modules
+
+config/config.env
+# testing
+/coverage
+
+# production
+/build
